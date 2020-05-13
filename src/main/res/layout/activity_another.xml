@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".AnotherActivity">
+
+    <TextView
+        android:id="@+id/nameDead"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="100dp"
+        android:text="Name of dead"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />;
+
+
+
+
+
+    <TextView
+        android:id="@+id/mosqueLocalisation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NbParticipants"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Name mosque :    "
+
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/dateEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NbParticipants"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-2dp"
+        android:text="Event Date :    "
+
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/prayerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameDead"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Prayer :    "
+        android:textColor="#000"
+        android:textSize="18sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/NbParticipants"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prayerDay"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="35dp"
+        android:text="People :    "
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/participatePrayer"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/janazahDescription"
+        android:onClick="showNotification"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="16dp"
+        android:text="I GO" />
+
+    <TextView
+        android:id="@+id/cardJanazahDescription"
+        android:layout_width="380dp"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée. Généralement, on utilise un texte en faux latin, le Lorem ipsum ou Lipsum." />
+
+    <TextView
+        android:id="@+id/showComments"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardJanazahDescription"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="showAllComments"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardJanazahDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="183dp"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginRight="201dp"
+        android:layout_marginBottom="317dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

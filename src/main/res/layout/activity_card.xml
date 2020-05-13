@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:background="#e0ffff"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-9dp">
+
+        <TextView
+            android:id="@+id/nameDead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-4dp"
+            android:text="Name of dead"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/mosqueLocalisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameDead"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=" Name mosque   "
+            android:textColor="#a9a9a9"
+            android:textSize="18sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/prayerDay"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameDead"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="31dp"
+            android:text=" Prayer :    "
+            android:textColor="#a9a9a9"
+            android:textSize="16sp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/cardJanazahDescription"
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="396dp"
+            android:layout_marginRight="396dp"
+            android:layout_marginBottom="-6dp"
+            android:text="TextView"
+            android:textColor="#afeeee" />
+
+        <!--
+                <Button
+                    android:id="@+id/participate_"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="242dp"
+                    android:layout_marginLeft="242dp"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="0dp"
+                  android:text="I Participate" />
+ -->
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

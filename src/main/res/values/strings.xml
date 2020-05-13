@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">janazahApp</string>
+    <string name="email">Email</string>
+    <string name="registeredQuestion">Not registered? Sign Up here</string>
+    <string name="sign_in">Sign In</string>
+    <string name="haveAccountTv">Already have an account? Sign in here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="salamou_alaykoum">salamou \'alaykoum</string>
+    <string name="logout">Logout</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="button">Button</string>
+    <string name="title_activity_select_mosque">Map</string>
+    <string-array name="prayers_">
+        <item>Fajr</item>
+        <item>Dohr</item>
+        <item>Asr</item>
+        <item>Maghreb</item>
+        <item>Isha</item>
+    </string-array>
+</resources>
